@@ -1,0 +1,1722 @@
+[
+  {
+    "Country Name": "Aruba",
+    "Country Code": "ABW",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "SNA data for 2000-2011 are updated from official government statistics; 1994-1999 from UN databases. Base year has changed from 1995 to 2000."
+  },
+  {
+    "Country Name": "Afghanistan",
+    "Country Code": "AFG",
+    "Region": "South Asia",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 20; reporting period for national accounts data: FY (from 2013 are CY). National accounts data are sourced from the IMF and differ from the Central Statistics Organization numbers due to exclusion of the opium economy."
+  },
+  {
+    "Country Name": "Angola",
+    "Country Code": "AGO",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2013 database update: Based on IMF data, national accounts data were revised for 2000 onward; the base year changed to 2002."
+  },
+  {
+    "Country Name": "Albania",
+    "Country Code": "ALB",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Andorra",
+    "Country Code": "AND",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "United Arab Emirates",
+    "Country Code": "ARE",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "April 2013 database update: Based on data from the National Bureau of Statistics, national accounts data were revised for 2001 onward; the base year changed to 2007."
+  },
+  {
+    "Country Name": "Argentina",
+    "Country Code": "ARG",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "The base year has changed to 2004."
+  },
+  {
+    "Country Name": "Armenia",
+    "Country Code": "ARM",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "American Samoa",
+    "Country Code": "ASM",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Antigua and Barbuda",
+    "Country Code": "ATG",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "April 2012 database update: Based on official government statistics, national accounts data were revised for 2000 onward; the base year changed to 2006."
+  },
+  {
+    "Country Name": "Australia",
+    "Country Code": "AUS",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: FY. Value added current series updated by the Australian Bureau of Statistics; data revised from 1990 onward; Australia reports using SNA 2008."
+  },
+  {
+    "Country Name": "Austria",
+    "Country Code": "AUT",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 13.7603 Austrian schilling. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Azerbaijan",
+    "Country Code": "AZE",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2012 database update: National accounts historical expenditure series in constant prices were revised in line with State Statistical Committee data that were not previously available."
+  },
+  {
+    "Country Name": "Burundi",
+    "Country Code": "BDI",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Belgium",
+    "Country Code": "BEL",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 40.3399 Belgian franc. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Benin",
+    "Country Code": "BEN",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Burkina Faso",
+    "Country Code": "BFA",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Bangladesh",
+    "Country Code": "BGD",
+    "Region": "South Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: FY. The new base year is 2005/06."
+  },
+  {
+    "Country Name": "Bulgaria",
+    "Country Code": "BGR",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "The new reference year for chain linked series is 2010. April 2011 database update: The National Statistical Office revised national accounts data from 1995 onward. GDP in current prices were about 4 percent higher than previous estimates."
+  },
+  {
+    "Country Name": "Bahrain",
+    "Country Code": "BHR",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "Based on official government statistics; the new base year is 2010."
+  },
+  {
+    "Country Name": "Bahamas, The",
+    "Country Code": "BHS",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Bosnia and Herzegovina",
+    "Country Code": "BIH",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on official government statistics for chain linked series; the new reference year is 2010."
+  },
+  {
+    "Country Name": "Belarus",
+    "Country Code": "BLR",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Belize",
+    "Country Code": "BLZ",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Bermuda",
+    "Country Code": "BMU",
+    "Region": "North America",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Bolivia",
+    "Country Code": "BOL",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Brazil",
+    "Country Code": "BRA",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Barbados",
+    "Country Code": "BRB",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Brunei Darussalam",
+    "Country Code": "BRN",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Bhutan",
+    "Country Code": "BTN",
+    "Region": "South Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2013 database update: Data were updated using the government of Bhutan macroeconomic framework."
+  },
+  {
+    "Country Name": "Botswana",
+    "Country Code": "BWA",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: CY. Based on official government statistics, national accounts data have been revised from 2006 onward; the new base year is 2006. Data before 2006 were reported on a fiscal year basis."
+  },
+  {
+    "Country Name": "Central African Republic",
+    "Country Code": "CAF",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Canada",
+    "Country Code": "CAN",
+    "Region": "North America",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: CY."
+  },
+  {
+    "Country Name": "Switzerland",
+    "Country Code": "CHE",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Channel Islands",
+    "Country Code": "CHI",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Chile",
+    "Country Code": "CHL",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "China",
+    "Country Code": "CHN",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "On 1 July 1997 China resumed its exercise of sovereignty over Hong Kong; and on 20 December 1999 China resumed its exercise of sovereignty over Macao. Unless otherwise noted, data for China do not include data for Hong Kong SAR, China; Macao SAR, China; or Taiwan, China. Based on data from the National Bureau of Statistics, the methodology for national accounts exports and imports of goods and services in constant prices have been revised from 2000 onward."
+  },
+  {
+    "Country Name": "Côte d'Ivoire",
+    "Country Code": "CIV",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "The new base year is 2009."
+  },
+  {
+    "Country Name": "Cameroon",
+    "Country Code": "CMR",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Congo, Dem. Rep.",
+    "Country Code": "COD",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on official government statistics; the new base year 2005."
+  },
+  {
+    "Country Name": "Congo, Rep.",
+    "Country Code": "COG",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2013 database update: Based on IMF data, national accounts data were revised for 1990 onward; the base year changed to 1990."
+  },
+  {
+    "Country Name": "Colombia",
+    "Country Code": "COL",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Comoros",
+    "Country Code": "COM",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Cabo Verde",
+    "Country Code": "CPV",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Cabo Verde is the new name for the country previously listed as Cape Verde. Based on official government statistics and IMF data, national accounts data have been revised from 1990 onward; the new base year is 2007."
+  },
+  {
+    "Country Name": "Costa Rica",
+    "Country Code": "CRI",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Cuba",
+    "Country Code": "CUB",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Curaçao",
+    "Country Code": "CUW",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Cayman Islands",
+    "Country Code": "CYM",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Cyprus",
+    "Country Code": "CYP",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2008: 1 euro = 0.585274 Cyprus pounds. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Czech Republic",
+    "Country Code": "CZE",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Germany",
+    "Country Code": "DEU",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 1.95583 German mark. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Djibouti",
+    "Country Code": "DJI",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Dominica",
+    "Country Code": "DMA",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2012 database update: Based on official government statistics, national accounts data were revised for 2000 onward; the base year changed to 2006."
+  },
+  {
+    "Country Name": "Denmark",
+    "Country Code": "DNK",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Dominican Republic",
+    "Country Code": "DOM",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Algeria",
+    "Country Code": "DZA",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Ecuador",
+    "Country Code": "ECU",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "National accounts have been revised from 1965 onward based on official government data; the new base year is 2007. The large upward changes are due to an improved calculation method for nominal GDP."
+  },
+  {
+    "Country Name": "Egypt, Arab Rep.",
+    "Country Code": "EGY",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: FY. The new base year is 2001/02."
+  },
+  {
+    "Country Name": "Eritrea",
+    "Country Code": "ERI",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2013 database update: Based on IMF data, national accounts data were revised for 2000 onward; the base year changed to 2000."
+  },
+  {
+    "Country Name": "Spain",
+    "Country Code": "ESP",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 166.386 Spanish peseta. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Estonia",
+    "Country Code": "EST",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2011: 1 euro = 15.6466 Estonian kroon. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Ethiopia",
+    "Country Code": "ETH",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: July 7; reporting period for national accounts data: FY. Based on IMF data, national accounts data have been revised for 2000 onward; the new base year is 2010/11."
+  },
+  {
+    "Country Name": "Finland",
+    "Country Code": "FIN",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 5.94573 Finnish markka. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Fiji",
+    "Country Code": "FJI",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on data from the Bureau of Statistics, national accounts data on the expenditure side have been revised from 2005 onward; the new base year is 2005."
+  },
+  {
+    "Country Name": "France",
+    "Country Code": "FRA",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 6.55957 French franc. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Faeroe Islands",
+    "Country Code": "FRO",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Micronesia, Fed. Sts.",
+    "Country Code": "FSM",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year ends on September 30; reporting period for national accounts data: FY. Based on the Pacific and Virgin Islands Training Initiative, national accounts data have been revised from 2009 onward. 2013 estimates are based on the IMF Small States Monitor, Issue 1.2014. In 2010, the government statistical office revised national accounts data for 1995-2008."
+  },
+  {
+    "Country Name": "Gabon",
+    "Country Code": "GAB",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on IMF data and official government statistics; the new base year is 2001."
+  },
+  {
+    "Country Name": "United Kingdom",
+    "Country Code": "GBR",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Georgia",
+    "Country Code": "GEO",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Ghana",
+    "Country Code": "GHA",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "In 2010, the Ghana Statistical Service revised the base year for Ghana's national accounts series from 1993 to 2006. The new GDP data were about 60 percent higher than previously reported and incorporated improved data sources and methodology."
+  },
+  {
+    "Country Name": "Guinea",
+    "Country Code": "GIN",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Gambia, The",
+    "Country Code": "GMB",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: CY. April 2013 database update: Based on official government statistics, national accounts data were revised for 2004 onward; the base year changed to 2004."
+  },
+  {
+    "Country Name": "Guinea-Bissau",
+    "Country Code": "GNB",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "In 2010, national accounts data for 2003-09 were revised. The new data had broader coverage of all sectors of the economy, and GDP in current prices averaged 89 percent higher than previous estimates."
+  },
+  {
+    "Country Name": "Equatorial Guinea",
+    "Country Code": "GNQ",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "National accounts have been revised from 1980 onward based on IMF data and official government statistics; the new base year is 2006."
+  },
+  {
+    "Country Name": "Greece",
+    "Country Code": "GRC",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 340.75 Greek drachma. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Grenada",
+    "Country Code": "GRD",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2012 database update: Based on official government statistics, national accounts data were revised for 2000 onward; the base year changed to 2006."
+  },
+  {
+    "Country Name": "Greenland",
+    "Country Code": "GRL",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Guatemala",
+    "Country Code": "GTM",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Guam",
+    "Country Code": "GUM",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Guyana",
+    "Country Code": "GUY",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "In 2010, the Bureau of Statistics introduced a new series of GDP rebased to year 2006. Current price GDP averaged 63 percent higher than previous estimates."
+  },
+  {
+    "Country Name": "Hong Kong SAR, China",
+    "Country Code": "HKG",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "On 1 July 1997 China resumed its exercise of sovereignty over Hong Kong. Unless otherwise noted, data for China do not include data for Hong Kong SAR, China; Macao SAR, China; or Taiwan, China. Agriculture value added includes mining and quarrying."
+  },
+  {
+    "Country Name": "Honduras",
+    "Country Code": "HND",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Croatia",
+    "Country Code": "HRV",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "The new reference year for chain linked series is 2010. April 2013 database update: Based on official government statistics, the base year for constant price series changed to 2005."
+  },
+  {
+    "Country Name": "Haiti",
+    "Country Code": "HTI",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: September 30; reporting period for national accounts data: FY. In 2010, the government revised national accounts data following changes in the methodology. Current price series since 1991 and constant price series since 1996 were revised."
+  },
+  {
+    "Country Name": "Hungary",
+    "Country Code": "HUN",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "April 2012 database update: Based on data from the Organisation for Economic Co-operation and Development, national accounts data were revised for 1991 onward."
+  },
+  {
+    "Country Name": "Indonesia",
+    "Country Code": "IDN",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: CY. Data for Indonesia include Timor-Leste through 1999 unless otherwise noted. New base year is 2010."
+  },
+  {
+    "Country Name": "Isle of Man",
+    "Country Code": "IMN",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "India",
+    "Country Code": "IND",
+    "Region": "South Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: FY. Based on official government statistics; the new base year is 2011/12. India reports using SNA 2008."
+  },
+  {
+    "Country Name": "Ireland",
+    "Country Code": "IRL",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 0.787564 Irish pound. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Iran, Islamic Rep.",
+    "Country Code": "IRN",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 20; reporting period for national accounts data: FY."
+  },
+  {
+    "Country Name": "Iraq",
+    "Country Code": "IRQ",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "National accounts have been revised from 2000 onward based on official government data; the new base year is 1988. The new series raises GDP significantly from previous estimates."
+  },
+  {
+    "Country Name": "Iceland",
+    "Country Code": "ISL",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Israel",
+    "Country Code": "ISR",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "Based on official government statistics for chain linked series; the new reference year is 2010."
+  },
+  {
+    "Country Name": "Italy",
+    "Country Code": "ITA",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 1936.27 Italian lira. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Jamaica",
+    "Country Code": "JAM",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2013 database update: Based on official government statistics, national accounts data were revised for 2002 onward; the base year changed to 2007."
+  },
+  {
+    "Country Name": "Jordan",
+    "Country Code": "JOR",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Japan",
+    "Country Code": "JPN",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: CY."
+  },
+  {
+    "Country Name": "Kazakhstan",
+    "Country Code": "KAZ",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "The new reference year for chain linked series is 2005."
+  },
+  {
+    "Country Name": "Kenya",
+    "Country Code": "KEN",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: CY. Based on official government statistics; the new base year is 2009."
+  },
+  {
+    "Country Name": "Kyrgyz Republic",
+    "Country Code": "KGZ",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Cambodia",
+    "Country Code": "KHM",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Kiribati",
+    "Country Code": "KIR",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on IMF and World Bank data, GDP in current and constant prices have been revised from 2000 onward. Value added components are calculated using shares from the Asian Development Bank."
+  },
+  {
+    "Country Name": "St. Kitts and Nevis",
+    "Country Code": "KNA",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "April 2012 database update: Based on official government statistics, national accounts data were revised for 2000 onward; the base year changed to 2006."
+  },
+  {
+    "Country Name": "Korea, Rep.",
+    "Country Code": "KOR",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "The new base year is 2010. GDP data are available from 1970 onward while components are revised from 2000 onward only. Historical data in constant prices are linked to preserve growth rates."
+  },
+  {
+    "Country Name": "Kosovo",
+    "Country Code": "KSV",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Kosovo became a World Bank member on June 29, 2009. Since 1999, Kosovo has been a territory under international administration pursuant to UN Security Council Resolution 1244 (1999)."
+  },
+  {
+    "Country Name": "Kuwait",
+    "Country Code": "KWT",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: CY. Based on official government statistics; the new base year is 2010."
+  },
+  {
+    "Country Name": "Lao PDR",
+    "Country Code": "LAO",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Lebanon",
+    "Country Code": "LBN",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Liberia",
+    "Country Code": "LBR",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "National accounts local currency data have been revised to be reported in U.S. dollars."
+  },
+  {
+    "Country Name": "Libya",
+    "Country Code": "LBY",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "National accounts data are revised from 2010 to 2013 based on IMF and World Bank staff estimates."
+  },
+  {
+    "Country Name": "St. Lucia",
+    "Country Code": "LCA",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2012 database update: Based on official government statistics, national accounts data were revised for 2000 onward; the base year changed to 2006."
+  },
+  {
+    "Country Name": "Liechtenstein",
+    "Country Code": "LIE",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Sri Lanka",
+    "Country Code": "LKA",
+    "Region": "South Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Lesotho",
+    "Country Code": "LSO",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: CY."
+  },
+  {
+    "Country Name": "Lithuania",
+    "Country Code": "LTU",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2015: 1 euro = 3.45280 Lithuanian litas. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Luxembourg",
+    "Country Code": "LUX",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 40.3399 Luxembourg franc. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Latvia",
+    "Country Code": "LVA",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2014: 1 euro = 0.702804 Latvian lats. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Macao SAR, China",
+    "Country Code": "MAC",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "On 20 December 1999 China resumed its exercise of sovereignty over Macao. Unless otherwise noted, data for China do not include data for Hong Kong SAR, China; Macao SAR, China; or Taiwan, China."
+  },
+  {
+    "Country Name": "St. Martin (French part)",
+    "Country Code": "MAF",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Morocco",
+    "Country Code": "MAR",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Monaco",
+    "Country Code": "MCO",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Moldova",
+    "Country Code": "MDA",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Madagascar",
+    "Country Code": "MDG",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Maldives",
+    "Country Code": "MDV",
+    "Region": "South Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2012 database update: The Department of National Planning revised national accounts data for 2000 onward; the base year changed to 2003."
+  },
+  {
+    "Country Name": "Mexico",
+    "Country Code": "MEX",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "The new base year is 2008."
+  },
+  {
+    "Country Name": "Marshall Islands",
+    "Country Code": "MHL",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year ends on September 30; reporting period for national accounts data: FY."
+  },
+  {
+    "Country Name": "Macedonia, FYR",
+    "Country Code": "MKD",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "New base year is 2005."
+  },
+  {
+    "Country Name": "Mali",
+    "Country Code": "MLI",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Malta",
+    "Country Code": "MLT",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2008: 1 euro = 0.4293 Maltese lira. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Myanmar",
+    "Country Code": "MMR",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: FY."
+  },
+  {
+    "Country Name": "Montenegro",
+    "Country Code": "MNE",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Montenegro declared independence from Serbia and Montenegro on June 3, 2006. Where available, data for each country are shown separately. However, for Serbia, some indicators continue to include data for Montenegro through 2005."
+  },
+  {
+    "Country Name": "Mongolia",
+    "Country Code": "MNG",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "The new base year is 2010."
+  },
+  {
+    "Country Name": "Northern Mariana Islands",
+    "Country Code": "MNP",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Mozambique",
+    "Country Code": "MOZ",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on official government statistics; the new base year is 2009."
+  },
+  {
+    "Country Name": "Mauritania",
+    "Country Code": "MRT",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on official statistics from the Ministry of Economic Affairs and Development; the base year has been returned to 2004."
+  },
+  {
+    "Country Name": "Mauritius",
+    "Country Code": "MUS",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Malawi",
+    "Country Code": "MWI",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: CY. Based on IMF data, national accounts data have been revised for 2000 onward; the new base year is 2009."
+  },
+  {
+    "Country Name": "Malaysia",
+    "Country Code": "MYS",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on official government statistics, value added in services in constant and current prices have been revised from 1990 onward. National accounts data in constant prices have been linked back to 1960; the new base year is 2005."
+  },
+  {
+    "Country Name": "Namibia",
+    "Country Code": "NAM",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: CY. Based on official government statistics, national accounts data have been revised from 1980 onward; the new base year is 2010."
+  },
+  {
+    "Country Name": "New Caledonia",
+    "Country Code": "NCL",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Niger",
+    "Country Code": "NER",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on official government statistics, national accounts data have been revised from 2006 onward; the new base year is 2006."
+  },
+  {
+    "Country Name": "Nigeria",
+    "Country Code": "NGA",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on official government statistics released 6 April, 2014, national accounts data have been revised from 2010 onward; the new base year is 2010. The new GDP data are 60 to 75 percent higher than previously reported and incorporate improved data sources and methodology. Nigeria reports using SNA 2008."
+  },
+  {
+    "Country Name": "Nicaragua",
+    "Country Code": "NIC",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2013 database update: Based on official government statistics, national accounts data were revised for 1994 onward; the base year changed to 2006."
+  },
+  {
+    "Country Name": "Netherlands",
+    "Country Code": "NLD",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 2.20371 Netherlands guilder. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Norway",
+    "Country Code": "NOR",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Nepal",
+    "Country Code": "NPL",
+    "Region": "South Asia",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: July 14; reporting period for national accounts data: FY."
+  },
+  {
+    "Country Name": "New Zealand",
+    "Country Code": "NZL",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: FY."
+  },
+  {
+    "Country Name": "Oman",
+    "Country Code": "OMN",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "Based on official government statistics; the new base year is 2010."
+  },
+  {
+    "Country Name": "Pakistan",
+    "Country Code": "PAK",
+    "Region": "South Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: FY. The new base year is 2005/06."
+  },
+  {
+    "Country Name": "Panama",
+    "Country Code": "PAN",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "The new base year is 2007."
+  },
+  {
+    "Country Name": "Peru",
+    "Country Code": "PER",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "The new base year is 2007."
+  },
+  {
+    "Country Name": "Philippines",
+    "Country Code": "PHL",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Source for GNI and net income from abroad is changed to national statistical office from central bank. April 2012 database update: National accounts data were revised for 1998 onward. Because intellectual property products are now reported as a part of gross fixed capital formation, gross domestic product (GDP) in current prices averaged 4 percent higher than previous estimates."
+  },
+  {
+    "Country Name": "Palau",
+    "Country Code": "PLW",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year ends on September 30; reporting period for national accounts data: FY. National accounts data are revised based on IMF reports."
+  },
+  {
+    "Country Name": "Papua New Guinea",
+    "Country Code": "PNG",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Poland",
+    "Country Code": "POL",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Puerto Rico",
+    "Country Code": "PRI",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: FY. April 2012 database update: Based on data from the Instituto de Estadísticas de Puerto Rico, national accounts data were revised for 2001 onward."
+  },
+  {
+    "Country Name": "Korea, Dem. Rep.",
+    "Country Code": "PRK",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Portugal",
+    "Country Code": "PRT",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 200.482 Portuguese escudo. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Paraguay",
+    "Country Code": "PRY",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "National accounts data have been revised from 1960 onward. The methodology and base year have not changed but the output of two hydroelectric plants (shared with neighboring countries) has been added raising GDP from previous estimates. On the supply side, it was added in \"gas, electricity and water.\" On the demand side changes were mainly to exports, but also for imports, investment and consumption. National accounts price valuations for 1991 to 2012 have also been corrected and changed from VAP to VAB."
+  },
+  {
+    "Country Name": "West Bank and Gaza",
+    "Country Code": "PSE",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "The new base year is 2004."
+  },
+  {
+    "Country Name": "French Polynesia",
+    "Country Code": "PYF",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Qatar",
+    "Country Code": "QAT",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Romania",
+    "Country Code": "ROU",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "National accounts have been revised based on data from the National Statistical Institute; the new base year is 2000."
+  },
+  {
+    "Country Name": "Russian Federation",
+    "Country Code": "RUS",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Rwanda",
+    "Country Code": "RWA",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on official government statistics, national accounts data are revised for 2006 onward; the new base year is 2011. Rwanda reports using SNA 2008."
+  },
+  {
+    "Country Name": "Saudi Arabia",
+    "Country Code": "SAU",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "The new base year is 2010."
+  },
+  {
+    "Country Name": "Sudan",
+    "Country Code": "SDN",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Demographic data (total population, life expectancy, fertility, child mortality, migration), education series, and HIV prevalence are reported separately for Sudan and South Sudan; see specific notes for other series. National accounts data exclude South Sudan after July 9, 2011. Other data reported for Sudan generally include South Sudan to 2011 unless otherwise noted. External debt data and land-related data (including population density, but excluding surface area after 2010) for all years include South Sudan."
+  },
+  {
+    "Country Name": "Senegal",
+    "Country Code": "SEN",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Singapore",
+    "Country Code": "SGP",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: CY. Country reports using a blend of SNA 1993 and SNA 2008. April 2012 database update: National accounts time series were replaced with official government statistics."
+  },
+  {
+    "Country Name": "Solomon Islands",
+    "Country Code": "SLB",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "National accounts data have been revised from 2007 to 2013 based on IMF reports."
+  },
+  {
+    "Country Name": "Sierra Leone",
+    "Country Code": "SLE",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: CY. April 2013 database update: Based on official government statistics, national accounts data were revised for 1990 onward; the base year changed to 2006."
+  },
+  {
+    "Country Name": "El Salvador",
+    "Country Code": "SLV",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "San Marino",
+    "Country Code": "SMR",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Somalia",
+    "Country Code": "SOM",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Serbia",
+    "Country Code": "SRB",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Montenegro declared independence from Serbia and Montenegro on June 3, 2006. Where available, data for each country are shown separately. However, for Serbia, some indicators, such as those series for which data appear only for Serbia and not Montenegro--e.g., aid, environment, external debt, balance of payments, various social indicators excluding population--continue to include data for Montenegro through 2005. Moreover, data from 1999 onward for Serbia for most indicators exclude data for Kosovo, 1999 being the year when Kosovo became a territory under international administration pursuant to UN Security Council Resolution 1244 (1999); any exceptions are noted. Kosovo became a World Bank member on June 29, 2009; available data are shown separately for Kosovo. In 2011, the Statistical Office of Serbia improved the methodology of national accounts data for 2003 onward. Specifically, the classification of sectors was revised. The new reference year for chain linked series is 2010."
+  },
+  {
+    "Country Name": "South Sudan",
+    "Country Code": "SSD",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "South Sudan declared its independence on July 9, 2011. Data are shown separately for South Sudan where available."
+  },
+  {
+    "Country Name": "São Tomé and Principe",
+    "Country Code": "STP",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on IMF data, national accounts data have been revised for 2000 onward; the new base year is 2000."
+  },
+  {
+    "Country Name": "Suriname",
+    "Country Code": "SUR",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Slovak Republic",
+    "Country Code": "SVK",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2009: 1 euro = 30.126 Slovak koruna. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Slovenia",
+    "Country Code": "SVN",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2007: 1 euro = 239.64 Slovenian tolar. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+  },
+  {
+    "Country Name": "Sweden",
+    "Country Code": "SWE",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: CY."
+  },
+  {
+    "Country Name": "Swaziland",
+    "Country Code": "SWZ",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: CY. In 2011, the Central Statistical Office revised national accounts data for 1990 onward."
+  },
+  {
+    "Country Name": "Sint Maarten (Dutch part)",
+    "Country Code": "SXM",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Seychelles",
+    "Country Code": "SYC",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "April 2013 database update: Based on official government statistics, national accounts data were revised for 1976 onward; the base year changed to 2006."
+  },
+  {
+    "Country Name": "Syrian Arab Republic",
+    "Country Code": "SYR",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2013 database update: Based on data from the Central Bureau of Statistics, national accounts data were revised for 2003 onward."
+  },
+  {
+    "Country Name": "Turks and Caicos Islands",
+    "Country Code": "TCA",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Chad",
+    "Country Code": "TCD",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on IMF data, national accounts data have been revised for 2005 onward; the new base year is 2005."
+  },
+  {
+    "Country Name": "Togo",
+    "Country Code": "TGO",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2013 database update: Based on IMF data, national accounts data have been revised for 2000; the new base year is 2000."
+  },
+  {
+    "Country Name": "Thailand",
+    "Country Code": "THA",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: September 30; reporting period for national accounts data: CY."
+  },
+  {
+    "Country Name": "Tajikistan",
+    "Country Code": "TJK",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Turkmenistan",
+    "Country Code": "TKM",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "On January 1, 2009, the Turkmen manat was redenominated (1 new manat = 5,000 old manats)."
+  },
+  {
+    "Country Name": "Timor-Leste",
+    "Country Code": "TLS",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on official government statistics, national account data have been revised, and value added is measured at basic prices; the new base year is 2010."
+  },
+  {
+    "Country Name": "Tonga",
+    "Country Code": "TON",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "2013 national accounts estimates are based on IMF reports. Fiscal year ends on June 30; reporting period for national accounts data: FY. April 2013 database update: Based on data from the National Bureau of Statistics, national accounts data were revised; the base year changed to 2010/11."
+  },
+  {
+    "Country Name": "Trinidad and Tobago",
+    "Country Code": "TTO",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Tunisia",
+    "Country Code": "TUN",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "National accounts data from 2005 onward have been revised based on data published by the Tunisian authorities. April 2012 database update: Based on data from the Central Bank and its Statistical Bulletin, national accounts data were revised for 1997 onward."
+  },
+  {
+    "Country Name": "Turkey",
+    "Country Code": "TUR",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Tuvalu",
+    "Country Code": "TUV",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "2013 national accounts estimates are based on IMF reports. Value added is measured at producer prices up to 1999 and at basic prices from 2000 onward."
+  },
+  {
+    "Country Name": "Taiwan, China",
+    "Country Code": "TWN",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Tanzania",
+    "Country Code": "TZA",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "The new base year is 2007. Tanzania reports using a blend of SNA 1993 and SNA 2008."
+  },
+  {
+    "Country Name": "Uganda",
+    "Country Code": "UGA",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: FY. Based on official government statistics; the new base year is 2009/10. Uganda reports using SNA 2008. Price valuation is in producer prices."
+  },
+  {
+    "Country Name": "Ukraine",
+    "Country Code": "UKR",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Uruguay",
+    "Country Code": "URY",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": "In 2011, the Central Bank revised national accounts data for 2006 onward."
+  },
+  {
+    "Country Name": "United States",
+    "Country Code": "USA",
+    "Region": "North America",
+    "IncomeGroup": "High income",
+    "OECDMembership": "OECD",
+    "SpecialNotes": "Fiscal year end: September 30; reporting period for national accounts data: CY."
+  },
+  {
+    "Country Name": "Uzbekistan",
+    "Country Code": "UZB",
+    "Region": "Europe & Central Asia",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "St. Vincent and the Grenadines",
+    "Country Code": "VCT",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "April 2012 database update: Based on official government statistics, national accounts data were revised for 2000 onward; the base year changed to 2006."
+  },
+  {
+    "Country Name": "Venezuela, RB",
+    "Country Code": "VEN",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Virgin Islands (U.S.)",
+    "Country Code": "VIR",
+    "Region": "Latin America & Caribbean",
+    "IncomeGroup": "High income",
+    "OECDMembership": "nonOECD",
+    "SpecialNotes": ""
+  },
+  {
+    "Country Name": "Vietnam",
+    "Country Code": "VNM",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on data from the Vietnam Statistics Office, national accounts data have been revised from 2000 onward; the new base year is 2010."
+  },
+  {
+    "Country Name": "Vanuatu",
+    "Country Code": "VUT",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "2013 national accounts estimates are based on IMF reports. Based on official government statistics, value added is measured at producer prices through 1997 and at basic prices from 1998 onward."
+  },
+  {
+    "Country Name": "Samoa",
+    "Country Code": "WSM",
+    "Region": "East Asia & Pacific",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year ends on June 30; reporting period for national accounts data: FY. Data are revised from Samoa Bureau of Statistics and Central Bank of Samoa. The new base year is 2008/09. Other methodological changes include increased reliance on summary data from the country’s Value Added Goods and Services Tax system, incorporation of more recent benchmarks, and use of improved data sources."
+  },
+  {
+    "Country Name": "Yemen, Rep.",
+    "Country Code": "YEM",
+    "Region": "Middle East & North Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Based on official government statistics and International Monetary Fund data, national accounts data have been revised for 1990 onward. The new base year is 2007."
+  },
+  {
+    "Country Name": "South Africa",
+    "Country Code": "ZAF",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Upper middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: March 31; reporting period for national accounts data: CY. The new base year is 2010. South Africa reports using SNA 2008."
+  },
+  {
+    "Country Name": "Zambia",
+    "Country Code": "ZMB",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Lower middle income",
+    "OECDMembership": "",
+    "SpecialNotes": "The new base year is 2010. National accounts data were rebased to reflect the January 1, 2013, introduction of the new Zambian kwacha at a rate of 1,000 old kwacha = 1 new kwacha. Zambia reports using SNA 2008."
+  },
+  {
+    "Country Name": "Zimbabwe",
+    "Country Code": "ZWE",
+    "Region": "Sub-Saharan Africa",
+    "IncomeGroup": "Low income",
+    "OECDMembership": "",
+    "SpecialNotes": "Fiscal year end: June 30; reporting period for national accounts data: CY. As of January 2009, multiple hard currencies, such as rand, pound sterling, euro and U.S. dollar are in use. Data are reported in U.S. dollars, the most-used currency."
+  }
+]

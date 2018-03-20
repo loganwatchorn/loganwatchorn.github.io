@@ -1,0 +1,404 @@
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/**Global************************************************************/
+
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+
+/**Header************************************************************/
+
+header {
+	background-color:#2e4053;
+	width:100%;
+	min-width:800px;
+	color:white;
+	border-bottom:#2e4053 1px solid;
+}
+
+
+.button p {
+
+}
+#button1 {
+	position:fixed;
+	top:0;
+	right:400px;
+	height:7vh;
+	width:100px;
+}
+#button1 p {
+	padding-top:2vh;
+	font-size:10px;
+	margin:0;
+}
+#button2 {
+	position:fixed;
+	top:0;
+	right:320px;
+	height:7vh;
+	width:80px;
+}
+#button2 p {
+	padding-top:2vh;
+	font-size:10px;
+	margin:0;
+}
+#button3 {
+	position:fixed;
+	top:0;
+	right:240px;
+	height:7vh;
+	width:80px;
+}
+#button3 p {
+	padding-top:2vh;
+	font-size:10px;
+	margin:0;
+}
+#button4 {
+	position:fixed;
+	top:0;
+	right:170px;
+	height:7vh;
+	width:80px;
+}
+#button4 p {
+	padding-top:2vh;
+	font-size:10px;
+	margin:0;
+}
+#button5 {
+	position:fixed;
+	top:0;
+	right:70px;
+	height:7vh;
+	width:80px;
+}
+#button5 p {
+	padding-top:2vh;
+	font-size:10px;
+	margin:0;
+}
+#button6 {
+	position:fixed;
+	top:0;
+	right:0;
+	height:7vh;
+	width:80px;
+}
+#button6 p {
+	padding-top:2vh;
+	font-size:10px;
+	margin:0;
+}
+
+.button:hover {
+	color:black;
+}
+
+/**Map***************************************************************/
+
+#MapContainer {
+	margin:0;
+}
+
+svg rect {
+	fill: #F5F5F5; /* map background colour */
+}
+
+.country {
+  fill: #A9A9A9;   /* country colour */
+  stroke: #3A3939 ; /* country border colour */
+  stroke-width: 1; /* country border width */
+}
+
+.country_moused {
+  fill: #808B96;
+  /* highlight colour for selected country */
+}
+
+.country_clicked {
+  fill: #2e4053;
+  /* highlight colour for selected country */
+}
+
+.countryLabel {
+  display: none;
+  height: 20px;
+  opacity: 0.8;   /* hide all country labels by default */
+}
+
+.countryName {
+  fill: #FFFFFF;   /* country label text colour */
+}
+
+.countryLabelBg {
+  fill: #171717;   /* country label background colour */
+}
+
+/**Data**************************************************************/
+
+#DataContainer {
+	background-color: #F5F5F5;
+}
+
+#DataPackage {
+	position:absolute;
+	width:100%;
+	height:98%;
+	padding-top:2%;
+}
+
+.datafieldtitle {
+	font-size:30px;
+	padding:4px 0 0 4%;
+}
+
+.datafield {
+	background-color: #2874a6   ;
+	color: #ffffff;
+	position:static;
+	width:86%;
+	padding:4px 0 0 4%;
+	height:30px;
+	margin-left:5%;
+	margin-top:10px;
+	border-radius:6px;
+}
+
+/**Plot**************************************************************/
+
+.line {
+    stroke: #E4002B;
+    fill: none;
+    stroke-width: 3;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.text-label {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.dot {
+    stroke: #293b47;
+    fill: #7A99AC
+}
+
+
+/**Footer************************************************************/
+footer {
+	background:#2e4053;
+	color: #000000;
+	border-top:#2e4053 1px solid;
+	width: 100%;
+}
+
+footer p {
+	font-size:5px;color: #000000;
+}
+
+/********************************************************************/
+
+
+
+
+
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/**Desktop***********************************************************/
+header {
+	position:fixed;
+	top:0;
+	height:7vh;
+}
+
+header h1 {
+	position:absolute;
+	font-size:5vh;
+	top:0;
+	margin:0 0 0 1%;
+}
+
+#buttons {
+	position:fixed;
+	top:0;
+	left:50%;
+	height:7vh;
+	width:50%;
+}
+
+.button {
+	position:absolute;
+}
+
+#MapContainer {
+	width:65vw;
+	height:84vh;
+	position:fixed;
+	top:9vh;
+	left:2vh;
+	border:#A9A9A9 1px solid;
+}
+
+#DataContainer {
+	width:32vw;
+	height:84vh;
+	position:fixed;
+	top:9vh;
+	right:2vh;
+	border:#A9A9A9 1px solid;
+}
+
+
+
+footer{
+	height:3vh;
+	position:fixed;
+	bottom:0;
+	min-height:20px;
+}
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/**Tablet************************************************************/
+/*@media screen and (min-width: 720px) and (max-aspect-ratio: 3/2) {
+
+header {
+	position:absolute;
+	top:0;
+	height:7vh;
+}
+
+header h1 {
+	position:absolute;
+	font-size:5vh;
+	top:0;
+	margin:0 0 0 1%;
+}
+
+#MapContainer{
+	width:100vw;
+	height:50vw;
+	position:static;
+	top:7vh;
+	border-bottom: #000000 2px solid;
+}
+
+#DataContainer {
+	width:100vw;
+	min-height:65vh;
+	overflow-y:auto;
+}
+
+footer{
+	height:20px;
+	min-height:20px;
+	position:absolute;
+	bottom:0;
+}
+
+}
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/**Mobile************************************************************/
+/*@media screen and (max-width: 767px) and (orientation: landscape) {
+
+html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+}  
+
+copy and paste the below into above section at very end of project */
+/*@media screen and (max-width: 720px) {
+
+header {
+	position:absolute;
+	top:0;
+	height:100px;
+	margin:0;
+}
+
+#MapContainer {
+	width:100vw;
+	height:50vw;
+	position:absolute;
+	top:100px;
+	border-bottom: #000000 2px solid;
+}
+
+#DataContainer {
+	width:100vw;
+	min-height:65vh;
+	overflow-y:auto;
+}
+
+footer{
+	height:15px;
+	position:absolute;
+	bottom:0;
+}
+
+}
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/**/

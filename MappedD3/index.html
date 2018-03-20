@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Global data">
+    <link rel="stylesheet" href="/Peacemap/style/style.css">
+    <title>Global D3</title>
+  </head>
+
+  <body>
+
+
+
+    <header>
+      <h1>Geographic Data with D3.js</h1>
+      <div id="button1" class="button" onclick="choropleth();">
+        <p>WorldView</p></div>
+      <div id="button2" class="button" onclick="choropleth(gdpSearch);">
+        <p>GDP/Capita</p></div>
+      <div id="button3" class="button" onclick="choropleth(ecSearch);">
+        <p>Energy</p></div>
+      <div id="button4" class="button" onclick="choropleth(leabSearch);">
+        <p>Life Expectancy</p></div>
+      <div id="button5" class="button" onclick="choropleth(hdiSearch);">
+        <p>HDI</p></div>
+      <div id="button6" class="button" onclick="choropleth(frSearch);">
+        <p>Fertility</p></div>
+    </header>
+
+
+    <div id="MapContainer"></div>
+
+    
+    <div id="DataContainer"></div>
+
+    <script type="text/javascript" src="/Peacemap/js/libs/D3.js"></script>
+    <script type="text/javascript" src="/Peacemap/js/libs/jQuery.js"></script>
+    <script type="text/javascript" src="/Peacemap/js/DataGenerator.js"></script>
+    <script type="text/javascript" src="/Peacemap/js/MapGenerator.js"></script>
+
+    <footer></footer>
+
+
+  </body>
+
+</html>

@@ -7,7 +7,7 @@ var jsonEC = (
         $.ajax({
             'async': false,
             'global': false,
-            'url': "/MappedD3/data/Energy-Consumption.json",
+            'url': "//data/Energy-Consumption.json",
             'dataType': "json",
             'success': function (data) {
                 jsonEC = data;
@@ -35,7 +35,7 @@ var jsonFR = (
         $.ajax({
             'async': false,
             'global': false,
-            'url': "/MappedD3/data/Fertility-Rate.json",
+            'url': "//data/Fertility-Rate.json",
             'dataType': "json",
             'success': function (data) {
                 jsonFR = data;
@@ -63,7 +63,7 @@ var jsonGDP = (
         $.ajax({
             'async': false,
             'global': false,
-            'url': "/MappedD3/data/GDP.json",
+            'url': "//data/GDP.json",
             'dataType': "json",
             'success': function (data) {
                 jsonGDP = data;
@@ -91,7 +91,7 @@ var jsonHDI = (
         $.ajax({
             'async': false,
             'global': false,
-            'url': "/MappedD3/data/HDI.json",
+            'url': "//data/HDI.json",
             'dataType': "json",
             'success': function (data) {
                 jsonHDI = data;
@@ -119,7 +119,7 @@ var jsonLEaB = (
         $.ajax({
             'async': false,
             'global': false,
-            'url': "/MappedD3/data/Life-Expectancy-at-Birth.json",
+            'url': "//data/Life-Expectancy-at-Birth.json",
             'dataType': "json",
             'success': function (data) {
                 jsonLEaB = data;
@@ -154,7 +154,7 @@ var jsonPop = (
         $.ajax({
             'async': false,
             'global': false,
-            'url': "/MappedD3/data/Population.json",
+            'url': "//data/Population.json",
             'dataType': "json",
             'success': function (data) {
                 jsonPop = data;

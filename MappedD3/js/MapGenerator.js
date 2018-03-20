@@ -154,7 +154,7 @@ var svg = d3
 
 // get map data
 d3.json(
-    "/Peacemap/js/libs/geo.json",
+    "//js/libs/geo.json",
     function(json) {
 
         countriesGroup = svg

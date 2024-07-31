@@ -1,4 +1,5 @@
 const luminosity_sqrt = Math.sqrt(luminosity);
+const vMaxSq = vMax * vMax;
 function smoothstep(x1, x2, p) {
     return (x1 + x2) * p + Math.min(x1, x2);
 }
@@ -14,7 +15,6 @@ function uniformRandom(lowerBound, upperBound) {
 }
 function lorentz_dt(vx, vy) {
     var vSq = vx * vx + vy * vy;
-    var vMaxSq = vMax * vMax;
     if (vSq >= vMaxSq) return dtMin;
     return Math.sqrt(1 - vSq / vMaxSq);
 }
@@ -112,17 +112,11 @@ function mergeBodies(i, j) {
     var mj = b[j].m;
     var m = mi + mj;
 
-    var x = (b[i].x * mi + b[j].x * mj) / m;
-    var y = (b[i].y * mi + b[j].y * mj) / m;
-
-    var vx = (b[i].vx * mi + b[j].vx * mj) / m;
-    var vy = (b[i].vy * mi + b[j].vy * mj) / m;
-
+    b[i].x = (b[i].x * mi + b[j].x * mj) / m;
+    b[i].y = (b[i].y * mi + b[j].y * mj) / m;
+    b[i].vx = (b[i].vx * mi + b[j].vx * mj) / m;
+    b[i].vy = (b[i].vy * mi + b[j].vy * mj) / m;
     b[i].m = m;
-    b[i].x = x;
-    b[i].y = y;
-    b[i].vx = vx;
-    b[i].vy = vy;
     updateRadius(i);
     updateCircle(i);
 
@@ -139,29 +133,10 @@ function moveBodies() {
             dt = Math.min(dt, dt_i);
         }
 
-        // Merge close bodies
-        if (merging) {
-            for (var i = 0; i < N; i++) {
-                if (b[i].m == 0) continue;
-
-                for (var j = i + 1; j < N; j++) {
-                    if (b[j].m == 0) continue;
-
-                    var dx = b[j].x - b[i].x;
-                    var dy = b[j].y - b[i].y;
-                    var dSq = dx * dx + dy * dy;
-                    var d = Math.sqrt(dSq);
-
-                    if (d <= b[i].r + b[j].r) {
-                        mergeBodies(i, j);
-                    }
-                }
-            }
-        }
-
         // Update velocities and position using leapfrog integration & Einstein's law of motion
         for (var i = 0; i < N; i++) {
             if (b[i].m == 0) continue;
+            merged = false;
 
             var fx = 0, fy = 0;
             for (var j = 0; j < N; j++) {
@@ -171,41 +146,40 @@ function moveBodies() {
                 var dy = b[j].y - b[i].y;
                 var dSq = dx * dx + dy * dy;
                 var d = Math.sqrt(dSq);
-                if (d == 0) {
-                    fx = 0, fy = 0;
+                if (merging && d <= b[i].r + b[j].r) {
+                    mergeBodies(i, j);
+                    merged = true;
+                    break;
+                } else if (d == 0) {
+                    fx = 0; fy = 0;
                     break;
                 }
-                var f = G * b[i].m * b[j].m / Math.pow(d, dPow);
+                var f = G * b[i].m * b[j].m / (dPow == 1 ? d : dSq);
                 f = Math.max(f, fMin);
                 fx += f * dx / d;
                 fy += f * dy / d;
             }
 
-            if (isNaN(fx) || isNaN(fy)) {
-                fx = 0; fy = 0;
+            if (!merged) {
+                if (isNaN(fx) || isNaN(fy)) {
+                    fx = 0; fy = 0;
+                }
+    
+                var ax = fx / b[i].m;
+                var ay = fy / b[i].m;
+    
+                // Update velocity (half-step)
+                b[i].vx += ax * dt / 2;
+                b[i].vy += ay * dt / 2;
+    
+                // Update position
+                b[i].x += b[i].vx * dt;
+                b[i].y += b[i].vy * dt;
+    
+                // Update velocity (half-step)
+                b[i].vx += ax * dt / 2;
+                b[i].vy += ay * dt / 2;
             }
-
-            var vMaxSq = vMax * vMax;
-            var vSq = Math.min(vMaxSq, b[i].vx * b[i].vx + b[i].vy * b[i].vy);
-            // var lorentz_component = Math.pow(Math.sqrt(1 - vSq / (vMax * vMax)), 3);
-            // var lorentz_component = Math.sqrt(1 - vSq / vMaxSq);
-            var lorentz_component = 1;
-            var ax = fx / b[i].m * lorentz_component;
-            var ay = fy / b[i].m * lorentz_component;
-
-            // var dt = lorentz_dt(b[i].vx, b[i].vy);
-
-            // Update velocity (half-step)
-            b[i].vx += ax * dt / 2;
-            b[i].vy += ay * dt / 2;
-
-            // Update position
-            b[i].x += b[i].vx * dt;
-            b[i].y += b[i].vy * dt;
-
-            // Update velocity (half-step)
-            b[i].vx += ax * dt / 2;
-            b[i].vy += ay * dt / 2;
         }
 
         // Enforce speed limit
@@ -233,13 +207,6 @@ function moveBodies() {
                 }
             }
         }
-
-        // Pull to center
-        // for (var i = 0; i < N; i++) {
-        //     if (b[i].m == 0) continue;
-        //     b[i].x *= 0.999;
-        //     b[i].y *= 0.999;
-        // }
     }
 
     // Render circles
@@ -249,13 +216,52 @@ function moveBodies() {
     }
 }
 
+// Modify these variables near the top of the file
+let isPageVisible = true;
+let isWindowFocused = true;
+let animationFrameId = null;
 
-// Render the scene
-function animate() {
-    requestAnimationFrame(animate);
-    moveBodies();
-    renderer.render(scene, camera);
+// Update this function near the other initialization code
+function setupVisibilityListener() {
+    document.addEventListener("visibilitychange", () => {
+        isPageVisible = !document.hidden;
+        updateAnimationState();
+    });
+
+    window.onfocus = () => {
+        isWindowFocused = true;
+        updateAnimationState();
+    };
+
+    window.onblur = () => {
+        isWindowFocused = false;
+        updateAnimationState();
+    };
 }
+
+// Add this new function
+function updateAnimationState() {
+    if (isPageVisible && isWindowFocused && !animationFrameId) {
+        animate();
+    } else if ((!isPageVisible || !isWindowFocused) && animationFrameId) {
+        cancelAnimationFrame(animationFrameId);
+        animationFrameId = null;
+    }
+}
+
+// Modify the animate function
+function animate() {
+    if (isPageVisible && isWindowFocused) {
+        moveBodies();
+        renderer.render(scene, camera);
+        animationFrameId = requestAnimationFrame(animate);
+    } else {
+        animationFrameId = null;
+    }
+}
+
+// Replace the existing animate() call with this
+setupVisibilityListener();
 animate();
 
 // Handle window resizing
@@ -265,43 +271,3 @@ window.addEventListener('resize', () => {
     updatePlaneSize();
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
-
-// Handle slider inputs
-function updateSliderValue(sliderId) {
-    const slider = document.getElementById(sliderId);
-    const output = document.getElementById(sliderId + '-value');
-    output.innerHTML = slider.value;
-    
-    switch(sliderId) {
-        case 'G':
-            G = parseFloat(slider.value);
-            break;
-        case 'vMax':
-            vMax = parseFloat(slider.value);
-            break;
-        case 'dMin':
-            dMin = parseFloat(slider.value);
-            break;
-        case 'mTotal':
-            mTotal = parseFloat(slider.value);
-            // Update masses of all bodies
-            const newMass = mTotal / N;
-            for (let i = 0; i < N; i++) {
-                if (b[i].m > 0) {
-                    b[i].m = newMass;
-                    updateCircleRadius(i);
-                }
-            }
-            break;
-    }
-}
-
-// Set up event listeners for sliders
-// ['G', 'vMax', 'dMin', 'mTotal'].forEach(param => {
-//     const slider = document.getElementById(param);
-//     slider.oninput = function() {
-//         updateSliderValue(param);
-//     };
-//     // Initialize slider values
-//     updateSliderValue(param);
-// });

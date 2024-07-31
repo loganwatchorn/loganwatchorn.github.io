@@ -1,6 +1,5 @@
 const numAnimations = 3;
 var animationId = Math.floor(Math.random() * numAnimations);
-// animationId = 2;
 
 let N;
 let G;
@@ -16,13 +15,12 @@ let bouncing;
 let wallDamp;
 let speedup;
 
-
 if (animationId == 0)
 { // TBP
     N = 3;
     G = 0.0001;
     dPow = 1;
-    vMax = 10;
+    vMax = 100;
     dtMin = 0.00001;
     fMin = 0.000001;
     m0 = 100;
@@ -65,21 +63,6 @@ else
     wallDamp = 0.1;
     speedup = 1;
 }
-// else
-// { // galaxy
-//     N = 1000;
-//     G = 0.000006674;
-//     vMax = 10;
-//     dtMin = 0.000000000001;
-//     fMin = 0.00000000001;
-//     m0 = 1;
-//     density = 10000;
-//     luminosity = 50;
-//     merging = true;
-//     bouncing = false;
-//     wallDamp = 0.5;
-//     speedup = 1;
-// }
 
 
 Object.freeze({ N, G, dPow, vMax, dtMin, fMin, m0, density, luminosity, merging, bouncing, wallDamp, speedup });

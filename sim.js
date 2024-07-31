@@ -175,7 +175,7 @@ function moveBodies() {
                     fx = 0, fy = 0;
                     break;
                 }
-                var f = G * b[i].m * b[j].m / d;
+                var f = G * b[i].m * b[j].m / Math.pow(d, dPow);
                 f = Math.max(f, fMin);
                 fx += f * dx / d;
                 fy += f * dy / d;
@@ -226,8 +226,8 @@ function moveBodies() {
                 var inBoundsX = (b[i].x >= xMin && b[i].x <= xMax);
                 var inBoundsY = (b[i].y >= yMin && b[i].y <= yMax);
                 if (b[i].inBounds) {
-                    if (!inBoundsX) {b[i].vx = -0.5 * b[i].vx; b[i].inBounds = false;}
-                    if (!inBoundsY) {b[i].vy = -0.5 * b[i].vy; b[i].inBounds = false;}
+                    if (!inBoundsX) {b[i].vx = -wallDamp * b[i].vx; b[i].inBounds = false;}
+                    if (!inBoundsY) {b[i].vy = -wallDamp * b[i].vy; b[i].inBounds = false;}
                 } else if (inBoundsX && inBoundsY) {
                     b[i].inBounds = true;
                 }

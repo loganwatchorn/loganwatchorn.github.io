@@ -1,5 +1,6 @@
-const numAnimations = 3;
+const numAnimations = 2;
 var animationId = Math.floor(Math.random() * numAnimations);
+// animationId = 0;
 
 let N;
 let G;
@@ -18,33 +19,17 @@ let speedup;
 if (animationId == 0)
 { // TBP
     N = 3;
-    G = 0.0001;
+    G = 0.006674;
     dPow = 1;
-    vMax = 100;
-    dtMin = 0.00001;
-    fMin = 0.000001;
+    vMax = 1000;
+    dtMin = 0.00000000001;
+    fMin = 0.00000001;
     m0 = 100;
     density = 100;
-    luminosity = 5;
+    luminosity = 2;
     merging = false;
     bouncing = true;
-    wallDamp = 1;
-    speedup = 2;
-}
-else if (animationId == 1)
-{ // ten bodies
-    N = 10;
-    G = 0.00001;
-    dPow = 1;
-    vMax = 100;
-    dtMin = 0.000001;
-    fMin = 0.000001;
-    m0 = 100;
-    density = 10000;
-    luminosity = 50;
-    merging = true;
-    bouncing = true;
-    wallDamp = 0.5;
+    wallDamp = 0.75;
     speedup = 2;
 }
 else

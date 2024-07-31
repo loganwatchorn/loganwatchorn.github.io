@@ -33,11 +33,21 @@
             align-items: flex-end;
         }
         #name {
+            position: fixed;
+            top: 0;
+            left: 0;
             margin: 0;
+            padding: 20px;
+        }
+        #name h1 {
             color: white;
             line-height: 1;
             font-family: 'Montserrat', sans-serif;
             font-weight: 300;
+            font-size: 30px;
+            line-height: 1;
+            padding: 0;
+            margin: 0;
         }
         .link {
             position: fixed;
@@ -46,6 +56,8 @@
         }
         .link img {
             display: block;
+            height: 30px;
+            width: 30px;
         }
         #link_github {
             top: 0;
@@ -70,39 +82,27 @@
     </style>
 </head>
 <body>
-    <!-- <div id="controls" style="position: absolute; top: 10px; left: 10px; z-index: 2;">
-        <label for="G">G: <span id="G-value"></span></label>
-        <input type="range" id="G" min="0" max="0.1" step="0.001" value="0.01"><br>
-
-        <label for="vMax">vMax: <span id="vMax-value"></span></label>
-        <input type="range" id="vMax" min="0" max="10" step="0.1" value="2"><br>
-
-        <label for="dMin">dMin: <span id="dMin-value"></span></label>
-        <input type="range" id="dMin" min="0" max="10" step="0.1" value="0"><br>
-
-        <label for="mTotal">mTotal: <span id="mTotal-value"></span></label>
-        <input type="range" id="mTotal" min="100" max="10000" step="100" value="1000"><br>
-
-        <button id="startButton">Start</button>
-    </div> -->
     <div id="content">
-        <h1 id="name">LOGAN WATCHORN</h1>
+        <div id="name">
+            <h1>LOGAN WATCHORN</h1>
+        </div>
+        
         <div id="links">
             <a href="https://www.github.com/loganwatchorn" target="_blank" class="link" id="link_github">
-                <img src="media/github-logo-white.svg" alt="GitHub" width="24" height="24">
+                <img src="media/github-logo-white.svg" alt="GitHub">
             </a>
             <a href="https://www.linkedin.com/in/loganwatchorn" target="_blank" class="link" id="link_linkedin">
-                <img src="media/linkedin-logo-white.png" alt="LinkedIn" width="24" height="24">
+                <img src="media/linkedin-logo-white.png" alt="LinkedIn">
             </a>
             <a href="https://www.x.com/logan_watchorn" target="_blank" class="link" id="link_x">
-                <img src="media/x-logo-white.svg" alt="X" width="24" height="24">
+                <img src="media/x-logo-white.svg" alt="X">
             </a>
         </div>
     </div>
+
     <canvas id="canvas"></canvas>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="constants.js"></script>
     <script src="sim.js"></script>
-    <!-- <script src="main.js"></script> -->
 </body>
 </html>

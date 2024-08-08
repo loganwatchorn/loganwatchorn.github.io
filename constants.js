@@ -30,7 +30,7 @@ if (animationId == 0)
     merging = false;
     bouncing = true;
     wallDamp = 0.75;
-    speedup = 2;
+    speedup = 1;
 }
 else
 { // hundred bodies

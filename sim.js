@@ -98,7 +98,8 @@ for (var i = 0; i < N; i++) {
     b[i].y = normalRandom(0, stdDev);
     b[i].vx = Math.min(vMax, 0.0001 * b[i].y);
     b[i].vy = -Math.min(vMax, 0.0001 * b[i].x);
-    b[i].inBounds = true;
+    b[i].inBoundsX = true;
+    b[i].inBoundsY = true;
     updateRadius(i);
 
     updateCircle(i);
@@ -196,13 +197,23 @@ function moveBodies() {
         if (bouncing) {
             for (var i = 0; i < N; i++) {
                 if (b[i].m == 0) continue;
-                var inBoundsX = (b[i].x >= xMin && b[i].x <= xMax);
-                var inBoundsY = (b[i].y >= yMin && b[i].y <= yMax);
-                if (b[i].inBounds) {
-                    if (!inBoundsX) {b[i].vx = -wallDamp * b[i].vx; b[i].inBounds = false;}
-                    if (!inBoundsY) {b[i].vy = -wallDamp * b[i].vy; b[i].inBounds = false;}
-                } else if (inBoundsX && inBoundsY) {
-                    b[i].inBounds = true;
+                
+                if (b[i].x < xMin || xMax < b[i].x) {
+                    if (b[i].inBoundsX) {
+                        b[i].vx = -wallDamp * b[i].vx;
+                        b[i].inBoundsX = false;
+                    }
+                } else if (!b[i].inBoundsX) {
+                    b[i].inBoundsX = true;
+                }
+
+                if (b[i].y < yMin || yMax < b[i].y) {
+                    if (b[i].inBoundsY) {
+                        b[i].vy = -wallDamp * b[i].vy;
+                        b[i].inBoundsY = false;
+                    }
+                } else if (!b[i].inBoundsY) {
+                    b[i].inBoundsY = true;
                 }
             }
         }

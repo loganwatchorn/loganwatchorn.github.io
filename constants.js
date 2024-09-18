@@ -1,6 +1,6 @@
 const numAnimations = 2;
-var animationId = Math.floor(Math.random() * numAnimations);
-// animationId = 0;
+// var animationId = Math.floor(Math.random() * numAnimations);
+animationId = 1;
 
 let N;
 let G;

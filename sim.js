@@ -1,3 +1,23 @@
+// Solar system simulation constants
+const numAnimations = 2;
+let animationId = 1; // Default to 100-body system
+
+let N, G, dPow, vMax, dtMin, fMin, m0, density, luminosity, merging, bouncing, wallDamp, speedup;
+
+N = 100;
+G = 0.00000000006674;
+dPow = 2;
+vMax = 300000;
+dtMin = 0.000001;
+fMin = 0.000001;
+m0 = 50000000;
+density = 3000000000;
+luminosity = 5;
+merging = true;
+bouncing = true;
+wallDamp = 0.1;
+speedup = 1;
+
 const luminosity_sqrt = Math.sqrt(luminosity);
 const vMaxSq = vMax * vMax;
 function smoothstep(x1, x2, p) {
